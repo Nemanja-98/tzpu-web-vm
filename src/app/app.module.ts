@@ -17,22 +17,16 @@ import { MatCardModule } from '@angular/material/card';
   declarations: [
     AppComponent,
     VirtualMachineComponent,
-<<<<<<< HEAD
     CommandListComponent
-=======
->>>>>>> 43d135eba0c9d7fd651b96addf78c40707f528a4
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-<<<<<<< HEAD
     MatListModule,
     MatButtonModule,
-=======
     MatCheckboxModule,
     MatCardModule,
->>>>>>> 43d135eba0c9d7fd651b96addf78c40707f528a4
   ],
   providers: [],
   bootstrap: [AppComponent]
