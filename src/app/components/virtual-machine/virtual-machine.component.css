@@ -1,0 +1,7 @@
+.virtual-box-container {
+  width: fit-content;
+}
+
+.virtual-box-container > * {
+  margin: 0px 6px;
+}
