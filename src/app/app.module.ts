@@ -5,16 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { VirtualMachineComponent } from './components/virtual-machine/virtual-machine.component';
+import { CommandListComponent } from './components/command-list/command-list.component';
+import { MatListModule } from '@angular/material/list'; 
+import { MatButtonModule } from '@angular/material/button'
 
 @NgModule({
   declarations: [
     AppComponent,
-    VirtualMachineComponent
+    VirtualMachineComponent,
+    CommandListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatListModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

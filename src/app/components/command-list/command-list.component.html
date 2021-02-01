@@ -1,0 +1,15 @@
+<div [className]="'divCommandsContainer'" >
+    <mat-selection-list #commands [multiple]="false">
+        <mat-list-option [className]="'listElement'"  *ngFor="let command of vmCommands; let i = index"  [value]="command">
+            <button mat-fab #btnFab [color]="paletteColour[i]" (click)="onButtonClicked($event)">{{command}}</button>
+        </mat-list-option>
+      </mat-selection-list>
+      
+      <p>
+        Option selected: {{commands.selectedOptions.selected[0]?.value}}
+      </p>
+      <div [className]="'divBtnConfirmation'">
+        <button mat-raised-button (click)="onButtonConfrimClicked($event)">Confirm</button>
+        <button mat-raised-button (click)="onButtonCancelClicked($event)">Cancel</button>
+      </div>
+</div>

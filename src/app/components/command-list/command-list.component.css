@@ -1,0 +1,33 @@
+.divCommandsContainer{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.listElement{
+    max-width: 60px;
+    max-height: 60px;
+    margin: 10px;
+}
+#commands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60px;
+}
+#btnFab{
+    width: 60px;
+    display: block;
+}
+.btnCommand{
+    margin: 50px;
+    width: 70px;
+    height: 70px;
+}
+.divBtnConfirmation{
+    width: fit-content;
+    margin: 5px;
+}
+
+.mat-raised-button{
+    margin-right: 5px;
+}
