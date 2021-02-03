@@ -102,8 +102,8 @@ namespace VMwareServer.Controllers
             return new JsonResult(new {curSnap = result});
         }
 
-        [HttpGet]
-        [Route("snapshots/{vmName}")]
+        [HttpPost]
+        [Route("snapshots")]
         public ActionResult GetSnapshots(string vmName)
         {
             string result;

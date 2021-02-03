@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tDDz4FkgUV43P5TVL+8UAP6zOK9A/FCoPdrXE6QVaf1iiyjug3U7l+oQ5kvn8IHUF5EKL03Vmx+BLIqh4YwyCQ==",
+  "dgSpecHash": "frB0Bqfz0bmA2RHk8gVLxsHRpV9hAjmw6bgh4yEv0KO18qgCc95qSAhhHVpcHdLGlMmCEJRIcqxIANwyt+UgCg==",
   "success": true,
-  "projectFilePath": "C:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj",
+  "projectFilePath": "c:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luka\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "C:\\Users\\Luka\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.1\\microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",

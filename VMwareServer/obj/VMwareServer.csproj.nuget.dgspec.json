@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj": {}
+    "c:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj": {}
   },
   "projects": {
-    "C:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj": {
+    "c:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj",
+        "projectUniqueName": "c:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj",
         "projectName": "VMwareServer",
-        "projectPath": "C:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj",
+        "projectPath": "c:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj",
         "packagesPath": "C:\\Users\\Luka\\.nuget\\packages\\",
-        "outputPath": "C:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\obj\\",
+        "outputPath": "c:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luka\\AppData\\Roaming\\NuGet\\NuGet.Config",
