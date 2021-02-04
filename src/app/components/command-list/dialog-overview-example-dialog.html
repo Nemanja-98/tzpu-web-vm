@@ -1,0 +1,22 @@
+<h1 mat-dialog-title>Configure static Ip Address</h1>
+<div mat-dialog-content>
+  <p>Woudld you like to set a static address or a range of ip addresses?</p>
+  <input type="checkbox" (change)="isRange=!isRange" />
+  <label>select range</label>
+  <div *ngIf="isRange">
+    <div>
+      <label>IP Address Range</label>
+      <input matInput placeholder="from" />
+      <input matInput placeholder="to" />
+    </div>
+  </div>
+  <div *ngIf="!isRange">
+    <label>IP Address</label>
+    <input matInput/>
+  </div>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button cdkFocusInitial>Ok</button>
+</div>

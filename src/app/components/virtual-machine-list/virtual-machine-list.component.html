@@ -1,0 +1,3 @@
+<div class="multiple-virtual-machines-container" *ngIf="virtualMachines">
+  <app-virtual-machine *ngFor="let vm of virtualMachines" [virutalMachine]="vm"></app-virtual-machine>
+</div>
