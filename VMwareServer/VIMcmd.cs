@@ -23,8 +23,10 @@ namespace VMwareServer
         private  string _command_poweroff = "vim-cmd vmsvc/power.off {0}";
         private  string _command_revertToSnapshot = "vim-cmd vmsvc/snapshot.revert {0} {1} 0";
         private string _command_getSnapshot = "vim-cmd vmsvc/snapshot.get {0}";
+        private string _command_getState = "vim-cmd vmsvc/power.getstate {0}";
+        private string _command_snapshotInfo = "vim-cmd vmsvc/get.snapshotinfo {0}";
+        private string _command_getGuest = "vim-cmd vmsvc/get.guest {0}";
         private const string _command_getIpAddress = "vim - cmd vmsvc/get.guest {0} |grep -m 1 \"ipAddress = \"\"";
-
         public VIMcmd()
         {
             _snapCounter.Add(10);
@@ -150,6 +152,18 @@ namespace VMwareServer
         public string Snapshots
         {
             get { return this._command_getSnapshot; }
+        }
+        public string GetState 
+        { 
+            get{ return this._command_getState; }
+        }
+        public string SnapshotInfo 
+        { 
+            get{ return this._command_snapshotInfo; }
+        }
+        public string GetGuest 
+        { 
+            get{ return this._command_getGuest; }
         }
         public string connectVMNetwork(string vmserver, string vmname,string komanda)
         {

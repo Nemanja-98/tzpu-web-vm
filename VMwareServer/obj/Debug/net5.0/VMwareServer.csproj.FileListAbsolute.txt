@@ -43,3 +43,7 @@ C:\-4thGrade-\TZPU\Projekat\Faza2\VMwareServer\bin\Debug\net5.0\Microsoft.AspNet
 C:\-4thGrade-\TZPU\Projekat\Faza2\VMwareServer\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\-4thGrade-\TZPU\Projekat\Faza2\VMwareServer\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\-4thGrade-\TZPU\Projekat\Faza2\VMwareServer\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\-4thGrade-\TZPU\Projekat\Faza2\VMwareServer\bin\Debug\net5.0\System.Web.Cors.dll
+C:\-4thGrade-\TZPU\Projekat\Faza2\VMwareServer\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\-4thGrade-\TZPU\Projekat\Faza2\VMwareServer\bin\Debug\net5.0\System.Web.Http.dll
+C:\-4thGrade-\TZPU\Projekat\Faza2\VMwareServer\bin\Debug\net5.0\System.Web.Http.Cors.dll

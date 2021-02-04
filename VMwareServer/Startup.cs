@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Cors;
 
 namespace VMwareServer
 {
@@ -39,6 +40,14 @@ namespace VMwareServer
             .AddNewtonsoftJson(options =>{
                 options.SerializerSettings.Formatting = Formatting.Indented;
             });
+
+            services.AddCors(options =>{
+                options.AddPolicy("TZPUPolicy", opt=>{
+                    opt.AllowAnyHeader();
+                    opt.AllowAnyMethod();
+                    opt.AllowAnyOrigin();
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,6 +65,8 @@ namespace VMwareServer
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors("TZPUPolicy");
 
             app.UseEndpoints(endpoints =>
             {

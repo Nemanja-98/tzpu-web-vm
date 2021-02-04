@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj": {}
+    "C:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj": {}
   },
   "projects": {
-    "c:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj": {
+    "C:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj",
+        "projectUniqueName": "C:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj",
         "projectName": "VMwareServer",
-        "projectPath": "c:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj",
+        "projectPath": "C:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\VMwareServer.csproj",
         "packagesPath": "C:\\Users\\Luka\\.nuget\\packages\\",
-        "outputPath": "c:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\obj\\",
+        "outputPath": "C:\\-4thGrade-\\TZPU\\Projekat\\Faza2\\VMwareServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.1, )",
